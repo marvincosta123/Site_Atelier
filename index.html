@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jaqueline Alves Atelier — Crochê Artesanal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-top">
+    <svg class="logo-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="24" cy="26" r="12"/><path d="M14 20c4 3 16 3 20 0M12 26h24M14 32c4-3 16-3 20 0"/><path d="M30 12l6-6M32 8l4 4"/></svg>
+    <a href="index.html" class="logo">Jaqueline Alves Atelier</a>
+    <div class="header-icons">
+      <button aria-label="Buscar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+      <button aria-label="Conta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.6-4 5-6 8-6s6.4 2 8 6"/></svg></button>
+      <button aria-label="Carrinho" style="position:relative" data-open-cart><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><span class="cart-count">0</span></button>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html" class="active">Início</a>
+    <a href="#vestuario">Vestuário</a>
+    <a href="#acessorios">Acessórios</a>
+    <a href="#receitas">Receitas</a>
+    <a href="#decoracao">Decoração</a>
+    <a href="#contato">Contato</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Acolhimento em cada ponto. Crochê artesanal para você e sua casa.</h1>
+    <p>Peças feitas à mão, uma de cada vez, com fio selecionado e carinho pelo detalhe.</p>
+    <a href="#produtos" class="btn btn-primary">Ver novidades</a>
+  </div>
+</section>
+
+<section class="section" id="categorias">
+  <div class="wrap">
+    <div class="grid grid-3">
+      <div class="cat-card" id="vestuario">
+        <div class="img"></div>
+        <div class="body">
+          <h3>Vestuário</h3>
+          <p>Cardigan de lã pastel</p>
+          <a href="#produtos" class="link">Ver coleção</a>
+        </div>
+      </div>
+      <div class="cat-card" id="acessorios">
+        <div class="img"></div>
+        <div class="body">
+          <h3>Acessórios</h3>
+          <p>Bolsa de algodão natural</p>
+          <a href="#produtos" class="link">Ver coleção</a>
+        </div>
+      </div>
+      <div class="cat-card" id="receitas">
+        <div class="img"></div>
+        <div class="body">
+          <h3>Receitas &amp; Tutoriais</h3>
+          <p>Aprenda e crie. Padrões digitais.</p>
+          <a href="blog.html" class="link">Ver coleção</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="produtos">
+  <div class="wrap">
+    <h2 class="section-title">Feito à mão para você</h2>
+    <div class="grid grid-4" id="product-grid"></div>
+  </div>
+</section>
+
+<section class="section" id="decoracao" style="background:var(--cream-card)">
+  <div class="wrap">
+    <h2 class="section-title">Sob encomenda</h2>
+    <p style="max-width:56ch;margin:-16px auto 30px;text-align:center;color:var(--ink-soft)">
+      Quer uma peça em outra cor, tamanho ou medida? Toda peça do ateliê pode ser feita sob encomenda — escolha o modelo e conte pra Jaque como você imagina.
+    </p>
+    <div style="text-align:center">
+      <a href="produto.html#encomenda" class="btn btn-outline">Fazer um pedido de encomenda</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contato">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Jaqueline Alves Atelier</h4>
+        <p>Fios de qualidade e crochê artesanal, feitos à mão para você e sua casa.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">Padrões e receitas</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Novidades</h4>
+        <p>Receba lançamentos e novidades por e-mail.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Seu e-mail" required>
+          <button type="submit">Inscrever</button>
+        </form>
+      </div>
+      <div>
+        <h4>Redes sociais</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 3.25.15 4.77 1.7 4.92 4.92.06 1.3.07 1.6.07 4.81s0 3.5-.07 4.81c-.15 3.23-1.66 4.77-4.92 4.92-1.3.06-1.6.07-4.9.07s-3.6 0-4.9-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.12 15.5 2.1 15.2 2.1 12s0-3.5.07-4.81C2.32 3.97 3.84 2.42 7.1 2.27 8.4 2.2 8.8 2.2 12 2.2zm0 3.6a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zm0 10.2a4 4 0 110-8 4 4 0 010 8zm6.4-10.4a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/></svg></a>
+          <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.3 9.3-.1-.8-.2-2 0-2.9l1.3-5.5s-.3-.7-.3-1.6c0-1.5.9-2.7 2-2.7.9 0 1.4.7 1.4 1.6 0 1-.6 2.4-1 3.7-.3 1.1.5 2 1.6 2 1.9 0 3.2-2.4 3.2-5.3 0-2.2-1.5-3.9-4.2-3.9-3.1 0-5 2.3-5 4.8 0 .9.3 1.5.7 2 .2.2.2.3.1.5l-.3 1c0 .3-.3.4-.6.2-1.2-.5-1.8-2-1.8-3.6 0-2.7 2.3-6 6.8-6 3.6 0 6 2.6 6 5.5 0 3.7-2 6.5-5 6.5-1 0-2-.5-2.3-1.1l-.6 2.4c-.2.9-.7 2-1.1 2.7.9.3 1.9.4 2.9.4 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Jaqueline Alves Atelier — atelierdajaque.shop</p>
+  </div>
+</footer>
+
+<script src="data/products.js"></script>
+<script src="render.js"></script>
+<script src="script.js"></script>
+<script src="cart.js"></script>
+</body> //adadada//
+</html>

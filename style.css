@@ -208,3 +208,21 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
   .form-row{grid-template-columns:1fr;}
   .section{padding:40px 20px;}
 }
+
+@media(max-width:480px){
+  .logo{font-size:1.6rem;}
+  .main-nav{gap:8px 14px;font-size:.78rem;padding:8px 14px 12px;}
+  .hero{padding:36px 16px;}
+  .hero h1{font-size:1.6rem;}
+  .hero p{font-size:.95rem;}
+  .btn{padding:11px 22px;font-size:.8rem;}
+  .grid-3,.grid-4{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .section-title{font-size:1.6rem;}
+  .cart-drawer{width:100%;max-width:100%;padding:18px;}
+  #wa-float{right:14px;bottom:14px;width:50px;height:50px;}
+  #wa-float svg{width:26px;height:26px;}
+  .product-info h1{font-size:1.6rem;}
+  .blog-hero h1{font-size:1.8rem;}
+  .cat-card .img,.blog-card .img{aspect-ratio:16/11;}
+}

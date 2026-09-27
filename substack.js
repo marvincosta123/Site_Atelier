@@ -1,6 +1,6 @@
 // ======= CONFIGURAÇÃO =======
 // Troque pelo endereço do feed do seu Substack (é sempre /feed no final):
-const SUBSTACK_FEED_URL = "https://substack.com/@atelierdajaque/notes";
+const SUBSTACK_FEED_URL = "https://atelierdajaque.substack.com/feed";
 
 // Opcional: crie uma chave grátis em https://rss2json.com/ pra ter um limite
 // maior de requisições por dia (o serviço funciona sem chave também, com limite menor).
